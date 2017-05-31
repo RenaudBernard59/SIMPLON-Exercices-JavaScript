@@ -1,1 +1,0 @@
-# SIMPLON-Exercices-JavaScript
