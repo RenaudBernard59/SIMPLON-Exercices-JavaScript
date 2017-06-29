@@ -10,3 +10,4 @@ for (var i = 1; i <= 100; i++) {
 
 
 // END
+// // git commit -am "Part2 Exo4 FINISH"

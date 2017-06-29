@@ -1,57 +1,47 @@
 /* ========== Partie 2 - Exercice 3 ========== */
-var nb;
-var nbDevinette;
+var nb, nbDevinette;
 
 // Définir les fonctions
 function demanderNombre() {
-  nb = Number(prompt("Entrez un entier : "));
+  nb = Number(prompt("Entrez un entier à deviner : "));
   return nb;
 }
 
+/*
 function demanderNombreDevinette() {
-  nbDevinette = Number(prompt("Entrez un entier : "));
+  nbDevinette = Number(prompt("Entrez un entier pour deviner le nombre: "));
   return nbDevinette;
 }
+*/
 
-
-function verifyEnter(nb) {
+function verifyEntier(nb) {
   // Vérifier si Entier
   var entier
   function isInt(nb) {
     entier = (n % 1 === 0);
-    return entier
-  }
-  // Agir en fonction
-  if (entier == true) {
-    demanderNombreDevinette();
-    jeuDevinette(nb);
-  } else {
-    demanderNombre();
+    return entier;
   }
 
 }
   
-function jeuDevinette(nb, nbDevinette) {
-  while (nb != nbDevinette) {
-     if (nb > nbDevinette) {
-       alert("Choisis un nombre plus grand");
-       demanderNombreDevinette();     
-     } else if (nb > nbDevinette) {
-       alert("Choisis un nombre plus petit");
-       demanderNombreDevinette();
-     } else {
-       alert("Bravo tu as gagner !!!");
-     }
+function jeuDevinette() {
+   nb = demanderNombre();
+   cUnEntier = verifyEntier(nb);
+  /*On demande le nombre initial */
+  if (cUnEntier === true) {
+    alert("C'est un entier");
+  } else {
+    alert("C'est pas un entier");
   }
+
+  /*On essaye de le debiner*/
+
 }
   
   
+jeuDevinette()
   
-  
-  
-// Lancer les fonctions
-demanderNombre();
-verifyEnter(nb);
+
   
   
 // END
