@@ -17,8 +17,34 @@ if table[2]> table[a]
 
 
 
+function maxTable() {
+
+	tableauDeNombre = [25, 456, 21.3, 0, 659, 12.3, -5];
+	i = 0
+	j = 1
+	l = tableauDeNombre.lenght
+	while (i < l) {
+		if (i > j) {
+			console.log(tableauDeNombre[i] + " est le plus grand");
+		} else if (i > l)  {
+			while (j < l) {
+				if (j > i)
+				console.log(tableauDeNombre[j] + " est le plus grand");
+			}
+			j++
+		} else {
+			console.log("Des nombres sont égaux");
+		}
+	i++
+
+	}
+
+	console.log(tableauDeNombre);
+}
 
 
+
+maxTable();
 
 
 // END
