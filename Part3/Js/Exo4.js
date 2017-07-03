@@ -12,10 +12,23 @@ factorielle
 
 
  */
+function maFactorielle() {
 
+	monNombre = parseInt(prompt("Donne moi un nombre et je te donnerais sa factorielle !"));
+	var chaine = "";
+	i = monNombre - 1;
+	for (i ; i > 0 ; i--) {
+		chaine = i + chaine;
+		
+	}
+	parseInt(chaine);
+	operation = chaine * monNombre;
+	operationCarac = String(chaine + " x " + monNombre);
 
+	alert("Le résultat de l'opération : " + operationCarac + " est " + operation);
 
+}
 
-
+maFactorielle();
 
 // END
