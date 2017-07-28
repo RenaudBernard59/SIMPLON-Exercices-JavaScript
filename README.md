@@ -384,7 +384,7 @@ Attention venir voir un formateur quand vous avez fini un des exercices
 #### 1.Consignes
 Dans cet exercice, pour débuter, nous allons travailler la déclaration littérale des objets. Vous aller déclarer un objet user avec :
 
-*Les propriétés suivantes :*
+**Les propriétés suivantes :**
 
 * Prénom
 * Nom
@@ -392,7 +392,7 @@ Dans cet exercice, pour débuter, nous allons travailler la déclaration littér
 * Age
 * Moyens de paiement enregistrés (un tableau contenant des strings de type "visa", "mastercard" etc...)
 
-**Les méthodes suivantes : **
+*Les méthodes suivantes : *
 
 * Une méthode qui alerte le prénom de l'utilisateur
 * Une méthode qui alerte le nom de l'utilisateur
@@ -438,7 +438,7 @@ Créez un constructeur qui permet de créer un guerrier. Ce constructeur initial
 
 A vous de jouer, testez ce constructeur en créant deux guerriers différents qui s'attaqueront chacun leur tour. Vérifiez ensuite que votre script fonctionne en affichant leur vie respective. Si celle-ci a baissé c'est que tout fonctionne !
 
-##### Partie 2
+##### Partie 2
 
 Nous allons améliorer un peu notre jeu et permettre à l'utilisateur de créer un autre type de personnage : le magicien.
 
@@ -486,10 +486,10 @@ Réaliser une application qui permet de trier une liste de client avec requête 
 
 Sur la page HTML on trouve un tableau avec un input de type dropdown, la requête AJAX récupère une liste de client au format JSON sur le serveur. Quand l'utilisateur sélectionne une valeur dans le select, la liste de client est triée selon cette valeur.
 
-*Attention n'oubliez de programmer en orienté objets !*
+**Attention n'oubliez de programmer en orienté objets !**
 
 Par exemple un objet se chargera de gérer l'HTML, sa création et son affichage
 
 Un objet se chargera de stocker la liste de clients récupérée sur le serveur, de la trier, de mettre chaque client dans une case du tableau etc.
 
-=====# SIMPLON-Exercices-JavaScript
+=====
