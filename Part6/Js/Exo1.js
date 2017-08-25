@@ -5,8 +5,8 @@ var roger = {
   paysResidence: 'Monderalcore',
   age: 36,
   moyensPaiement: ["Liquide", "Carte Bleue", "Chèque", "Paypal" ],
-  // Initialisation des Méthodes
   saidPrenom: function() {
+  // Initialisation des Méthodes
     window.alert(this.prenom);
   }, //END Function saidPrenom
   saidNom: function() {
@@ -20,6 +20,30 @@ var roger = {
 }; //END Function roger
 
 //=====================================================================
+
+var itsAllowed = {
+	paysAutorises: ['FRANCE', 'BELGIQUE', 'ALLEMAGNE', 'ROYAUME-UNI', 'ESPAGNE', 'PORTUGAL', 'ITALIE', 'IRLANDE', 'SUISSE'],
+	paiementAutorises: ['CARTE BLEUE', 'PAYPAL', 'BITCOINS', 'RIB'],
+	ageMinimum = 18,
+  // Initialisation des Méthodes
+	verifAge: function(ageUtilisateur) {
+		if (this.ageMinimum) < (ageUtilisateur) {
+			return var allowedAge = true;
+		} else {
+			return var allowedAge = false;
+		} // END Conditionnal	
+	}, // END func verifAge
+	verifPays: function(paysUtilisateur) {
+			
+
+		if this.paysAutorises.indexOf(paysUtilisateur) = true {
+		}
+	}, // END func verifPays
+	verifPaiement: function(moyenPaiement) {
+		a
+	} // END func verifPaiement
+} //END itsAllowed
+
 //=====================================================================
 // Apel de fonctions
 

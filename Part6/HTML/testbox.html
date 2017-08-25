@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TESTBOX</title>
+<script>
+
+var moyensPaiement = ["LIQUIDE", "CARTE BLEUE", "CHEQUE", "PAYPAL"];
+var paiementAutorises = ['CARTE BLEUE', 'PAYPAL', 'BITCOINS', 'RIB'];
+var tb1 = moyensPaiement;
+var tb2 = paiementAutorises;
+var a = 0;
+var allowed = false;
+/*
+while (a <= (tb1.length+1)) {
+  var b = 0
+  if (allowed = false) {
+    while (b <= (tb2.length+1))
+    {
+      if (tb1[0].toUpperCase() == tb2[0]) {
+      //Si concordance entre 2 tableaux ==> ALLOW
+       allowed = true;
+       break;
+      } else {
+       //Si NONconcordance entre 2 tableaux ==> ON RECOMMENCE
+       allowed = false;
+      } // END conditionnel 2
+    } // END boucle 2
+ } else {
+      break;
+} // END conditionnel 1
+} // END boucle 1
+
+
+window.alert(allowed)
+
+*/
+
+if (tb1.indexOf(tb2) == -1) {
+  alert("NOT ALLOW");
+} else {
+  alert("ALLOW");
+}
+
+
+
+
+
+
+</script>
+</head>
+<body>
+	
+</body>
+</html>
